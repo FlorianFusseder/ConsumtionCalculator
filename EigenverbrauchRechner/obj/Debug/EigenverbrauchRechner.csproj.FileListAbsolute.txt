@@ -1,0 +1,15 @@
+C:\Users\Florian\Desktop\Projects\C# selbst\EigenverbrauchRechner\EigenverbrauchRechner\bin\Debug\EigenverbrauchRechner.exe.config
+C:\Users\Florian\Desktop\Projects\C# selbst\EigenverbrauchRechner\EigenverbrauchRechner\bin\Debug\EigenverbrauchRechner.exe
+C:\Users\Florian\Desktop\Projects\C# selbst\EigenverbrauchRechner\EigenverbrauchRechner\bin\Debug\EigenverbrauchRechner.pdb
+C:\Users\Florian\Desktop\Projects\C# selbst\EigenverbrauchRechner\EigenverbrauchRechner\obj\Debug\EigenverbrauchRechner.csprojResolveAssemblyReference.cache
+C:\Users\Florian\Desktop\Projects\C# selbst\EigenverbrauchRechner\EigenverbrauchRechner\obj\Debug\MainWindow.baml
+C:\Users\Florian\Desktop\Projects\C# selbst\EigenverbrauchRechner\EigenverbrauchRechner\obj\Debug\MainWindow.g.cs
+C:\Users\Florian\Desktop\Projects\C# selbst\EigenverbrauchRechner\EigenverbrauchRechner\obj\Debug\App.g.cs
+C:\Users\Florian\Desktop\Projects\C# selbst\EigenverbrauchRechner\EigenverbrauchRechner\obj\Debug\EigenverbrauchRechner_MarkupCompile.cache
+C:\Users\Florian\Desktop\Projects\C# selbst\EigenverbrauchRechner\EigenverbrauchRechner\obj\Debug\EigenverbrauchRechner.g.resources
+C:\Users\Florian\Desktop\Projects\C# selbst\EigenverbrauchRechner\EigenverbrauchRechner\obj\Debug\EigenverbrauchRechner.Properties.Resources.resources
+C:\Users\Florian\Desktop\Projects\C# selbst\EigenverbrauchRechner\EigenverbrauchRechner\obj\Debug\EigenverbrauchRechner.csproj.GenerateResource.Cache
+C:\Users\Florian\Desktop\Projects\C# selbst\EigenverbrauchRechner\EigenverbrauchRechner\obj\Debug\EigenverbrauchRechner.exe
+C:\Users\Florian\Desktop\Projects\C# selbst\EigenverbrauchRechner\EigenverbrauchRechner\obj\Debug\EigenverbrauchRechner.pdb
+C:\Users\Florian\Desktop\Projects\C# selbst\EigenverbrauchRechner\EigenverbrauchRechner\obj\Debug\NeuesJahr.baml
+C:\Users\Florian\Desktop\Projects\C# selbst\EigenverbrauchRechner\EigenverbrauchRechner\obj\Debug\NeuesJahr.g.cs

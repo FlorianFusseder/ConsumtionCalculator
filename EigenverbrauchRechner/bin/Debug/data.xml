@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfZählerstand xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/EigenverbrauchRechner">
+    <Zählerstand>
+        <GesamtEingespeist>6915</GesamtEingespeist>
+        <GesamtProduziert>9959</GesamtProduziert>
+        <GesamtZugekauft>3907</GesamtZugekauft>
+        <Id>2013</Id>
+    </Zählerstand>
+    <Zählerstand>
+        <GesamtEingespeist>15100</GesamtEingespeist>
+        <GesamtProduziert>20530</GesamtProduziert>
+        <GesamtZugekauft>7877</GesamtZugekauft>
+        <Id>2014</Id>
+    </Zählerstand>
+    <Zählerstand>
+        <GesamtEingespeist>23700</GesamtEingespeist>
+        <GesamtProduziert>31527</GesamtProduziert>
+        <GesamtZugekauft>11394</GesamtZugekauft>
+        <Id>2015</Id>
+    </Zählerstand>
+</ArrayOfZählerstand>

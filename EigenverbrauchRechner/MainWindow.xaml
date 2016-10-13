@@ -1,0 +1,62 @@
+﻿<Window x:Class="EigenverbrauchRechner.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Height="350" Width="350"
+        xmlns:local="crl-namespace:EigenverbrauchRechner">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="120"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <DockPanel LastChildFill="True">
+            <StackPanel Orientation="Horizontal" DockPanel.Dock="Bottom">
+                <Button Width="25" Margin="1 2" Content="+" Command="{Binding AddCommand}"/>
+                <Button Width="25" Margin="1 2" Content="-" Command="{Binding DelCommand}"/>
+            </StackPanel>
+            <ListBox Margin="5" ItemsSource="{Binding Jahre}" SelectedItem="{Binding Ausgewählt}">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel>
+                            <TextBlock Text="{Binding Id}"></TextBlock>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+        </DockPanel>
+        <Grid Grid.Column="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+            
+            <TextBlock Text="Gesamt Produziert" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            <TextBlock Text="Gesamt Eingespeist" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="1"/>
+            <TextBlock Text="Gesamt Eingekauft" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="2"/>
+            <TextBlock Text="Jahres Produkt" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="3"/>
+            <TextBlock Text="Jahres Einspeisung" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="4"/>
+            <TextBlock Text="Eigenverbrauch" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="5"/>
+            <TextBlock Text="Jahres Einkauf" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="6"/>
+            <TextBlock Text="Jahres Verbrauch" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="7"/>
+
+            <TextBlock HorizontalAlignment="Right" VerticalAlignment="Center" Grid.Row="0" Grid.Column="1" Margin="5 0" Text="{Binding Path=GesamtProduziert, UpdateSourceTrigger=PropertyChanged}"/>
+            <TextBlock HorizontalAlignment="Right" VerticalAlignment="Center" Grid.Row="1" Grid.Column="1" Margin="5 0" Text="{Binding Path=GesamtEingespeist, UpdateSourceTrigger=PropertyChanged}"/>
+            <TextBlock HorizontalAlignment="Right" VerticalAlignment="Center" Grid.Row="2" Grid.Column="1" Margin="5 0" Text="{Binding Path=GesamtEingekauft, UpdateSourceTrigger=PropertyChanged}"/>
+            <TextBlock HorizontalAlignment="Right" VerticalAlignment="Center" Grid.Row="3" Grid.Column="1" Margin="5 0" Text="{Binding Path=JahresProdukt, UpdateSourceTrigger=PropertyChanged}"/>
+            <TextBlock HorizontalAlignment="Right" VerticalAlignment="Center" Grid.Row="4" Grid.Column="1" Margin="5 0" Text="{Binding Path=JahresEinspeisung, UpdateSourceTrigger=PropertyChanged}"/>
+            <TextBlock HorizontalAlignment="Right" VerticalAlignment="Center" Grid.Row="5" Grid.Column="1" Margin="5 0" Text="{Binding Path=EigenverbrauchProzent, UpdateSourceTrigger=PropertyChanged}"/>
+            <TextBlock HorizontalAlignment="Right" VerticalAlignment="Center" Grid.Row="6" Grid.Column="1" Margin="5 0" Text="{Binding Path=KaufenProzent, UpdateSourceTrigger=PropertyChanged}"/>
+            <TextBlock HorizontalAlignment="Right" VerticalAlignment="Center" Grid.Row="7" Grid.Column="1" Margin="5 0" Text="{Binding Path=JahresVerbrauch, UpdateSourceTrigger=PropertyChanged}"/>
+
+        </Grid>
+    </Grid>
+</Window>
